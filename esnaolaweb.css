@@ -140,3 +140,139 @@ h3 {
     margin-top: 40px;
     margin-bottom: 20px;
 }
+
+/* Journal list definition */
+
+    ol.j-list {
+      list-style-type: none;
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      
+     /*counter-reset: list-item 24; /* Replace N with the number of items */
+    }
+    
+    ol.j-list li {
+      padding-left: 60px;
+      position: relative;
+      /*counter-increment: list-item -1;*/
+    }
+    
+    ol.j-list li::before {
+      content: "J" counter(list-item) ".";
+      font-weight: bold;
+      width: 45px;                /* Wider for more digits */
+      position: absolute;
+      text-align: right;   /* Align numbers to the right */
+      display: inline-block;
+      left:0;
+    }
+
+
+/* Conference list definition */
+
+    ol.c-list {
+      list-style-type: none;
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      
+     /*counter-reset: list-item 24; /* Replace N with the number of items */
+    }
+    
+    ol.c-list li {
+      padding-left: 60px;
+      position: relative;
+      /*counter-increment: list-item -1;*/
+    }
+    
+    ol.c-list li::before {
+      content: "C" counter(list-item) ".";
+      font-weight: bold;
+      width: 45px;                /* Wider for more digits */
+      position: absolute;
+      text-align: right;   /* Align numbers to the right */
+      display: inline-block;
+      left:0;
+    }
+
+/* Book list definition */
+
+    ol.b-list {
+      list-style-type: none;
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      
+     /*counter-reset: list-item 24; /* Replace N with the number of items */
+    }
+    
+    ol.b-list li {
+      padding-left: 60px;
+      position: relative;
+      /*counter-increment: list-item -1;*/
+    }
+    
+    ol.b-list li::before {
+      content: "B" counter(list-item) ".";
+      font-weight: bold;
+      width: 45px;                /* Wider for more digits */
+      position: absolute;
+      text-align: right;   /* Align numbers to the right */
+      display: inline-block;
+      left:0;
+    }
+
+/* Patent list definition */
+
+    ol.p-list {
+      list-style-type: none;
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      
+     /*counter-reset: list-item 24; /* Replace N with the number of items */
+    }
+    
+    ol.p-list li {
+      padding-left: 60px;
+      position: relative;
+      /*counter-increment: list-item -1;*/
+    }
+    
+    ol.p-list li::before {
+      content: "P" counter(list-item) ".";
+      font-weight: bold;
+      width: 45px;                /* Wider for more digits */
+      position: absolute;
+      text-align: right;   /* Align numbers to the right */
+      display: inline-block;
+      left:0;
+    }
+
+/* Technical Report list definition */
+
+    ol.t-list {
+      list-style-type: none;
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      
+     /*counter-reset: list-item 24; /* Replace N with the number of items */
+    }
+    
+    ol.t-list li {
+      padding-left: 60px;
+      position: relative;
+      /*counter-increment: list-item -1;*/
+    }
+    
+    ol.t-list li::before {
+      content: "TR" counter(list-item) ".";
+      font-weight: bold;
+      width: 45px;                /* Wider for more digits */
+      position: absolute;
+      text-align: right;   /* Align numbers to the right */
+      display: inline-block;
+      left:0;
+    }
